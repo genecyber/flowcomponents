@@ -1,12 +1,12 @@
-exports.id = 'code';
-exports.title = 'Code';
-exports.group = 'Common';
+exports.id = 'extract-addresses';
+exports.title = 'Extract Addresses';
+exports.group = 'Coval';
 exports.color = '#656D78';
 exports.input = true;
 exports.output = 1;
-exports.author = 'Peter Širka';
-exports.icon = 'code';
-exports.version = '1.2.0';
+exports.author = 'Shannon Code';
+exports.icon = 'bezier-curve';
+exports.version = '1.0.0';
 exports.options = { outputs: 1, code: 'send(0, value);', keepmessage: true };
 
 exports.html = `<div class="padding">
